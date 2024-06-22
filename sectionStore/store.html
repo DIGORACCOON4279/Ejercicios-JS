@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section Store</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+
+    <!-- Main Container -->
+
+    <main class="containerStore">
+
+        <!-- Store -->
+
+        <section class="sectionStore">
+            <div class="sectionCard ">
+                <!-- <article class="cartProducts me-3">
+                    <div class="article">
+                        <img src="../img/pic1.webp" alt="Outfit Image" class="outFit">
+                        <div class="info">
+                            <img class="heartIcon" src="../img/wishlist_Icon.svg" alt="Heart icon">
+                            <p class="price">Outfit..........................$499</p>
+                            <a href="store.html" class="linkStore">Add to cart</a>
+                        </div>
+                    </div>
+                </article> -->
+            </div>
+        </section>
+
+        <!-- Shopping Cart -->
+
+        <input id="cart" type="checkbox">
+        <section class="sectionShop">
+            <div class="menuCart">
+                <label for="cart" class="cartShop">
+                    <img class="closeCross" src="img/close_Cross.svg" alt="Close cross icon">
+                </label>
+                <nav class="menuCartlist">
+                    <div class="choiceCartlist">
+                        <h3 class="cartlistWord">My cart</h3>
+                        <div class="cart" id="cart">
+                            <article class="category">
+                                <h3 class="titleCartlist">Item</h3>
+                                <h3 class="titleCartlist">Pricing</h3>
+                                <h3 class="titleCartlist">Quantity</h3>
+                                <h3 class="titleCartlist">Total</h3>
+                            </article>
+                            <article class="containerArticles">
+                                <!-- <article class="cartlist">
+                                        <img class="itemProduct" src="../img/pic24.webp" alt="Product pic">
+                                        <div class="description">
+                                            <p class="price">$499</p>
+                                            <div class="icons">
+                                                <img src="../img/trash_Icon.svg" alt="Trash icon">
+                                                <img src="../img/edit_Icon.svg" alt="Edit icon">
+                                            </div>
+                                        </div>
+                                        <div class="itemNumber">
+                                            <label for="quantity"></label>
+                                            <input type="number" id="quantity" name="quantity" min="1" max="5" value="0" >
+                                        </div>
+                                        <p class="total">$499</p>
+                                </article> -->
+                            </article>
+                        </div>
+                    </div>
+                    <div class="outcomeCard">
+                        <!-- <article class="outcome">
+                            <p class="shipping">Shipping<span>$00</span></p>
+                            <p class="discount">Discount 25%<span>$374</span></p>
+                            <p class="total">Total<span>$1122</span></p>
+                        </article> -->
+                        <button class="btnCheckout">Secure checkout</button>
+                    </div>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Filter -->
+
+        <section class="sectionFilter">
+            <article class="menuFilterSide">
+                <input id="filterSide" type="checkbox">
+                <label for="filterSide" class="headLine">
+                    <div class="filter">
+                        <img class="filterIcon" src="../img/filter_Icon.svg" alt="Filter icon">
+                        <p class="filterWord">Filter <span class="clipPath"></span></p>
+                    </div>
+                </label>
+                <p class="subtitle">"Explore a world of possibilities in our online store and make your dreams come true with just one click!"
+                </p>
+                <nav class="menuFilter">
+                    <label for="filterSide">
+                        <img class="closeCross" src="../img/close_Cross.svg" alt="Close cross icon">
+                    </label>
+
+                    <div class="choiceFilter">
+                        <h3 class="filterWord">Filter</h3>
+                        <div class="sectionAvailability">
+                            <h3 class="titleAvailability">Availability</h3>
+                                <article class="availability">
+                                    <label for="inStock" class="labelOne">
+                                        <input type="checkbox" id="inStock">In-stock
+                                    </label>
+
+                                    <label for="newArrivals" class="labelTwo">
+                                        <input type="checkbox" id="newArrivals">New Arrivals
+                                    </label>
+
+                                    <label for="soldOut" class="labelThree">
+                                        <input type="checkbox"  id="soldOut">Sold-out
+                                    </label>
+
+                            </article>
+                        </div>
+                        <div class="sectionPricing">
+                            <h3 class="titlePricing">Pricing</h3>
+                            <article class="pricing">
+
+                                    <label for="priceOne" class="priceOne">
+                                        <input type="checkbox" id="priceOne">$499
+                                    </label>
+
+                                    <label for="priceTwo" class="priceTwo">
+                                        <input type="checkbox" id="priceTwo">$599
+                                    </label>
+
+                                    <label for="priceThree" class="priceThree">
+                                        <input type="checkbox" id="priceThree">$999
+                                    </label>
+
+                            </article>
+                        </div>
+
+                    </div>
+                </nav>
+            </article>
+        </section>
+
+        <!-- WhishList -->
+
+        <li>
+            <label for="wishlistSide" class="wishHeadLine">
+                Wishlist
+                <img class="wishlistIcon" src="img/wishlist_White_Icon.svg" alt="Heart icon">
+            </label>
+        </li>
+
+        <input type="checkbox" id="wishlistSide">
+        <section class="sectionWishlist">
+            <label for="wishlistSide" class="wishHeadLine">
+                <img class="closeCross" src="img/close_Cross.svg" alt="Close cross icon">
+            </label>
+            <nav class="menuWishlist">
+                <div class="choiceWishlist">
+                    <h3 class="wishlistWord">WishList</h3>
+                    <div class="wish">
+                        <article class="category">
+                            <h3 class="titleWishlist">Item</h3>
+                            <h3 class="titleWishlist">Pricing</h3>
+                            <h3 class="titleWishlist">Wish</h3>
+                        </article>
+                        <article class="containerWishlist">
+                            <!-- <article class="wishlist">
+                                <div class="blockProduct">
+                                    <img class="itemProduct" src="img/pic24.webp" alt="Product pic">
+                                    <div class="description">
+                                        <p class="wishPrice">$499</p>
+                                        <div class="icons">
+                                            <img src="img/trash_Icon.svg" alt="Trash icon">
+                                            <img src="img/edit_Icon.svg" alt="Edit icon">
+                                        </div>
+                                    </div>
+                                    <img class="itemWishlist" src="img/wishlist_Icon.svg" alt="Wishlist icon">
+                                </div>
+                            </article> -->
+
+                        </article>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+    </main>
+
+
+    <script src="store.js"></script>
+    <script src="cart.js"></script>
+    <script src="filter.js"></script>
+    <script src="wishlist.js"></script>
+
+</body>
+</html>
+
+
+
